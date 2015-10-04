@@ -1,4 +1,7 @@
 # Eve-X-Counter
+
+![](http://i.imgur.com/t3AIlti.png)   
+
 This tool is supposed to read the lines of fleet chat (in realtime (maybe (probably))) and count the number of X's in fleet.
 You just need to compile it via Visual Studio and run it.
 
