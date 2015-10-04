@@ -244,11 +244,8 @@ namespace Eve_Chat_Tool
                             //new x's are as such we reset the count
                             if (chat.Contains("----"))
                             {
-                                //reset count
-                                count = 0;
-
-                                //push to gui
-                                update();
+                                //resets the count and updates the gui
+                                countReset();
                             }
                         }
                     }
