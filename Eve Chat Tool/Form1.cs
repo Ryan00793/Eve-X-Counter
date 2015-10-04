@@ -83,6 +83,14 @@ namespace Eve_Chat_Tool
             update();
         }
 
+        void incrementCount()
+        {
+            //Adds 1 to the int count
+            count++;
+            //pushes to the gui
+            update();
+        }
+
         #endregion
 
         #region file reads
@@ -233,10 +241,7 @@ namespace Eve_Chat_Tool
                             {
                                 //increments the count else this whole
                                 //thing would be worthless
-                                count++;
-
-                                //push to the gui
-                                update();
+                                incrementCount();
                             }
 
                             //this is just a common thing that we
@@ -244,11 +249,8 @@ namespace Eve_Chat_Tool
                             //new x's are as such we reset the count
                             if (chat.Contains("----"))
                             {
-                                //reset count
-                                count = 0;
-
-                                //push to gui
-                                update();
+                                //reset count and update gui
+                                countReset();
                             }
                         }
                     }
