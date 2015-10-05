@@ -27,8 +27,9 @@ To reset the counter from ingame you will need to simply put in 4 "-"s like this
 
 # Download
 
-Binary (compiled release for the lazy people)
-this is the current Eve_X_Counter.zip md5sum 6b7b9f25251b760bb3468d7e859bb0ca (10/4/2015) (ver 1.0)
-https://vanillacraft.net/eve/
+A friend pointed out the release part of github so I'ma try that out instead.
+
+Binary (compiled release for the lazy people) this is the current Eve_X_Counter.zip md5sum 306ec2f66e2d94c1a747d3ca9ce5f812 (10/4/2015) (ver a.1.0)
+https://github.com/Ryan00793/Eve-X-Counter/releases
 
 poke around in there shouldn't be too hard to find.
